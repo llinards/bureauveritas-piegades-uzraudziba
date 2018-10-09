@@ -43,7 +43,7 @@ li {
 
 /* FIRST SECTION */
 #first {
-  background: linear-gradient(rgba(182, 182, 182, 0.25), rgba(182, 182, 182, 0.25)), url("../img/section_one_1.jpg");
+  background-color: #ccc;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -80,7 +80,6 @@ li {
   background-color: rgba(115, 115, 115, 0.8);
   color: #fff;
   width: 70%;
-  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   font-weight: 400; }

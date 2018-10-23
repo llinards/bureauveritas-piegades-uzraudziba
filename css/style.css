@@ -20,14 +20,14 @@ li {
 
 .section__hr {
   height: 10px;
-  background: #be112f;
+  background: #b5182a;
   border: 0;
   border-radius: 2px;
   width: 25%;
   margin: 0 auto; }
 
 .apply-btn {
-  background: #be112f;
+  background: #b5182a;
   color: #fff;
   border: none;
   font-family: "Source Sans Pro", sans-serif;
@@ -43,7 +43,7 @@ li {
 
 /* FIRST SECTION */
 #first {
-  background-color: #ccc;
+  background-color: #68655C;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -85,42 +85,15 @@ li {
   font-weight: 400; }
   .first__subheading span {
     font-weight: 700;
-    text-decoration: underline; }
-
-.first__name-of-services {
-  padding-top: 0.5rem; }
-
-.first__name-of-services .row {
-  max-width: 750px;
-  max-height: 65px;
-  margin-left: auto;
-  margin-right: auto; }
-
-.name-of-service {
-  background-color: rgba(139, 32, 50, 0.3);
-  border: 3px solid #8b2032;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  .name-of-service:hover, .name-of-service:focus, .name-of-service:active {
-    background-color: rgba(139, 32, 50, 0.6); }
-  .name-of-service p {
-    margin: 0;
-    text-align: center;
-    font-weight: 700;
-    font-size: 1.5rem; }
-  .name-of-service a {
-    color: #fff;
-    text-decoration: none; }
+    text-decoration: underline;
+    text-transform: uppercase; }
 
 .first__arrow-down {
   font-size: 4rem;
   animation: upAndDown 5s infinite;
   margin-bottom: 4rem !important; }
   .first__arrow-down a {
-    color: #8b2032; }
+    color: #b5182a; }
   .first__arrow-down:hover {
     cursor: pointer; }
 
@@ -151,7 +124,7 @@ li {
   padding: 1rem 0; }
 
 .info-box__heading {
-  background: #be112f;
+  background: #b5182a;
   border-radius: 2px;
   font-size: 1.5rem; }
   .info-box__heading p {
@@ -164,13 +137,21 @@ li {
     padding-left: 2rem;
     margin-bottom: 0;
     font-size: 1rem; }
+  .info-box__info p {
+    margin-bottom: 0;
+    padding: 0.5rem; }
+  .info-box__info .readmore-btn {
+    text-align: center; }
+
+#readmore-three {
+  padding-top: 0; }
 
 section#second h3 {
   font-weight: 400;
   color: #fff; }
   section#second h3 span {
     font-weight: 700;
-    color: #be112f; }
+    color: #b5182a; }
 
 /* end SECOND SECTION */
 /* THIRD SECTION */
@@ -183,7 +164,7 @@ section#second h3 {
 .service__main,
 .service__info-head,
 .readmore-btn {
-  background-color: #be112f;
+  background-color: #b5182a;
   color: #fff; }
 
 .service__main h3 {
@@ -278,7 +259,7 @@ footer label {
 .form-control {
   border-radius: 0; }
   .form-control:focus {
-    border-color: #be112f;
+    border-color: #b5182a;
     box-shadow: 0 0 0 0.2rem rgba(190, 17, 47, 0.25); }
 
 label.agree-checkbox__text {

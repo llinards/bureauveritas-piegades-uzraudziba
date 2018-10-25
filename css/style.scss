@@ -78,7 +78,8 @@ li {
 }
 
 .first__headings {
-    padding-top: 7%;
+    // padding-top: 7%;
+    padding: 0 7rem;
 }
 
 .first__heading {
@@ -229,11 +230,19 @@ section#second h3 {
     padding: 2rem;
 }
 
+.service__main {
+    margin-bottom: 1rem;
+}
+
 .service__main,
 .service__info-head,
 .readmore-btn {
     background-color: $main-bv-red;
     color: #fff;
+}
+
+.service__info {
+    margin-bottom: 1rem;
 }
 
 .service__main h3 {
@@ -248,6 +257,7 @@ section#second h3 {
 .service__info-text {
     background-color: #fff;
     padding: 1rem;
+    width: 100%;
 
     span {
         font-weight: 700;
@@ -268,7 +278,7 @@ section#second h3 {
 #readmore-seven,
 #readmore-eight,
 #readmore-nine {
-    padding-top: 0.5rem;
+    // padding-top: 0.5rem;
     transition: all 0.5s;
 }
 

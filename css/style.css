@@ -56,7 +56,7 @@ li {
   max-height: 100px; }
 
 .first__headings {
-  padding-top: 7%; }
+  padding: 0 7rem; }
 
 .first__heading {
   font-size: 2.8rem;
@@ -161,11 +161,17 @@ section#second h3 {
   background-color: #ccc;
   padding: 2rem; }
 
+.service__main {
+  margin-bottom: 1rem; }
+
 .service__main,
 .service__info-head,
 .readmore-btn {
   background-color: #b5182a;
   color: #fff; }
+
+.service__info {
+  margin-bottom: 1rem; }
 
 .service__main h3 {
   font-weight: 400;
@@ -175,7 +181,8 @@ section#second h3 {
 
 .service__info-text {
   background-color: #fff;
-  padding: 1rem; }
+  padding: 1rem;
+  width: 100%; }
   .service__info-text span {
     font-weight: 700; }
 
@@ -192,7 +199,6 @@ section#second h3 {
 #readmore-seven,
 #readmore-eight,
 #readmore-nine {
-  padding-top: 0.5rem;
   transition: all 0.5s; }
 
 .readmore-btn {

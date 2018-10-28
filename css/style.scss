@@ -1,6 +1,6 @@
 // $main-bv-red: #be112f;
 
-$main-bv-red: rgb(181,24,42);
+$main-bv-red: rgb(181, 24, 42);
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700');
 
@@ -34,7 +34,8 @@ li {
     margin: 0 auto;
 }
 
-.apply-btn {
+.apply-btn,
+.popup-btn {
     background: $main-bv-red;
     color: #fff;
     border: none;
@@ -54,6 +55,30 @@ li {
     &:hover {
         background-color: rgba(139, 32, 50, 0.6);
 
+    }
+}
+
+.second__btns {
+    .popup-btn {
+        float: left;
+    }
+
+    .apply-btn {
+        float: right;
+    }
+}
+
+.popup-btn {
+    margin-bottom: 0.5rem;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+.modal-body {
+    .section__hr {
+        margin-bottom: 1rem;
     }
 }
 
@@ -163,14 +188,13 @@ li {
 .info__boxes {
     height: 100%;
 
-    .apply-btn {
-       
-    }
+    .apply-btn {}
 }
 
 .info__boxes .row {
     margin-left: 0;
     margin-right: 0;
+    margin: 3rem 0;
 }
 
 .info-box {
@@ -201,7 +225,7 @@ li {
         margin-bottom: 0;
         padding: 0.5rem;
     }
- 
+
 
     .readmore-btn {
         text-align: center;
@@ -224,6 +248,13 @@ section#second h3 {
 }
 
 /* end SECOND SECTION */
+/* SECOND_PLUS */
+#second_plus {
+    width: 100%;
+    padding: 2rem;
+    // height: 417px;
+}
+/* end SECOND_PLUS*/
 /* THIRD SECTION */
 #third {
     /* height: 100vh; */
@@ -308,6 +339,18 @@ section#second h3 {
 }
 
 /* end THIRD SECTION */
+
+/* THIRD_PLUS SECTION */
+#third_plus {
+    width: 100%;
+    height: 400px;
+    background-color: #737373;
+    padding: 2rem;
+}
+
+
+/* end THIRD_PLUS SECTION*/
+
 /* FOURTH SECTION */
 #fourth {
     width: 100%;
@@ -443,6 +486,7 @@ label.agree-checkbox__text {
 
     p {
         margin-bottom: 0;
-    } 
+    }
 }
+
 /* end FOOTER */

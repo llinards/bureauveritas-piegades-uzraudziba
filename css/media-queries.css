@@ -127,6 +127,12 @@
     }
 }
 
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 768px !important;
+    }
+}
+
 @media (max-width: 425px) {
     .first__headings {
         padding-top: 0;

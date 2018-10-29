@@ -27,7 +27,6 @@
         font-size: 2.5rem;
     }
 
-
     .info-box {
         padding: 0 0 1rem 0;
     }
@@ -39,6 +38,12 @@
     .popup-btn,
     .apply-btn {
         font-size: 1.25rem;
+    }
+
+    #second_plus .list .container ul,
+    .info-box__info ul,
+    #third_plus .container ul {
+        padding-left: 0;
     }
 
     #fourth p {
@@ -62,10 +67,7 @@
         font-size: 1.25rem;
     }
 
-    .modal-body p {
-        font-size: 0.75rem;
-    }
-
+    .modal-body p,
     #fourth p {
         font-size: 0.75rem;
     }

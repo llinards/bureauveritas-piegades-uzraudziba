@@ -5,6 +5,7 @@ $main-bv-red: rgb(181, 24, 42);
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700');
 
 /* GLOBAL */
+
 h1,
 h2,
 h3,
@@ -82,6 +83,10 @@ li {
     }
 }
 
+.section__headings {
+    font-size: 1.75rem;
+}
+
 /* FIRST SECTION */
 #first {
     // background: linear-gradient(rgba(182, 182, 182, 0.25),
@@ -92,18 +97,20 @@ li {
     background-attachment: fixed;
 
     width: 100%;
-    height: 100vh;
+    height: 800px;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-}
+    .logo {
+        max-width: 100px;
+        max-height: 100px;
+    }
 
-.first__logo {
-    max-width: 100px;
-    max-height: 100px;
 }
 
 .first__headings {
-    // padding-top: 7%;
     padding: 0 7rem;
 }
 
@@ -133,16 +140,17 @@ li {
 .first__subheading {
     background-color: rgba(115, 115, 115, 0.8);
     color: #fff;
-    width: 70%;
-    // max-width: 500px;
+
+    max-width: 1070px;
     margin-left: auto;
     margin-right: auto;
     font-weight: 400;
 
     span {
         font-weight: 700;
-        text-decoration: underline;
         text-transform: uppercase;
+
+
     }
 }
 
@@ -150,6 +158,8 @@ li {
     font-size: 4rem;
     animation: upAndDown 5s infinite;
     margin-bottom: 4rem !important;
+    display: flex;
+    justify-content: center;
 
     a {
         color: $main-bv-red;
@@ -180,15 +190,16 @@ li {
 
 #second {
     width: 100%;
-    // height: 417px;
+    // max-height: 700px;
     background-color: rgb(115, 115, 115);
-    padding: 5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .info__boxes {
     height: 100%;
-
-    .apply-btn {}
 }
 
 .info__boxes .row {
@@ -202,7 +213,6 @@ li {
 }
 
 .info-box__heading {
-    // background: $main-bv-red;
     border-radius: 2px;
     font-size: 1.5rem;
 
@@ -252,8 +262,8 @@ section#second h3 {
 #second_plus {
     width: 100%;
     padding: 2rem;
-    // height: 417px;
 }
+
 /* end SECOND_PLUS*/
 /* THIRD SECTION */
 #third {
@@ -343,7 +353,6 @@ section#second h3 {
 /* THIRD_PLUS SECTION */
 #third_plus {
     width: 100%;
-    height: 400px;
     background-color: #737373;
     padding: 2rem;
 }
@@ -486,6 +495,8 @@ label.agree-checkbox__text {
 
     p {
         margin-bottom: 0;
+        text-align: center;
+        margin-top: 0.5rem;
     }
 }
 

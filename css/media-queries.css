@@ -75,7 +75,7 @@
 
 @media (max-width: 440px) {
     #first {
-        height: 700px;
+        /* height: 700px; */
     }
 
     .first__heading {
@@ -124,7 +124,7 @@
 
 @media (max-width: 375px) {
     #first {
-        height: 600px;
+        /* height: 600px; */
     }
 
     #first,

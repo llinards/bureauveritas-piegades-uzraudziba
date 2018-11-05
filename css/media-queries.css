@@ -43,6 +43,11 @@
         padding-left: 0;
     }
 
+    .img-office,
+    .img-monitoring {
+        width: 100%;
+    }
+
     #fourth p {
         text-align: center;
     }
@@ -151,7 +156,7 @@
         padding: 1rem 0.5rem;
     }
 
-    .first__heading {
+    /* .first__heading {
         font-size: 1rem;
     }
 
@@ -160,7 +165,7 @@
     .service__main h3,
     .info-box__heading p {
         font-size: 0.75rem;
-    }
+    } */
 
     .list .container,
     #third_plus .container {

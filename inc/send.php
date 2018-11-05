@@ -1,6 +1,6 @@
 <?php
 
-$recipient_email    = "linards_lazdins@hotmail.com"; //recepient
+$recipient_email    = "girts.tobijs@lv.bureauveritas.com, linards@lynyrds.com, lelde.igaune@lv.bureauveritas.com"; 
 $from_email         = "info@bureauveritaslatvia.lv"; //from email using site domain.
 
 
@@ -35,7 +35,7 @@ if($_POST){
     //construct a message body to be sent to recipient
     $message_body = "";
     $message_body .= "Sveiki!\n";
-    $message_body .= "No BV industrijas mājaslapas ir pienācis jautājums.\n";
+    $message_body .= "No BV piegādes uzraudzības mājaslapas ir pienācis jautājums.\n";
     $message_body .= "Vārds: $sender_first_name\n"; 
     $message_body .= "E-pasts: $sender_email\n";
     $message_body .= "Jautājums:\n";

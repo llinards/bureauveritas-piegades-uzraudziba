@@ -64,10 +64,9 @@ a.apply-btn:hover {
 
 /* FIRST SECTION */
 #first {
-  background-color: darkgray;
+  background: linear-gradient(rgba(169, 169, 169, 0.6), darkgray), url("../img/bg.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   width: 100%;
   padding: 2rem; }
   #first .logo {

@@ -1,7 +1,7 @@
 // $main-bv-red: #be112f;
 
 $main-bv-red: rgb(181, 24, 42);
-$main-bv-gray: rgb(169,169,169);
+$main-bv-gray: rgb(169, 169, 169);
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700');
 
@@ -93,12 +93,12 @@ a.apply-btn:hover {
 
 /* FIRST SECTION */
 #first {
-    // background: linear-gradient(rgba(182, 182, 182, 0.25),
-    //     rgba(182, 182, 182, 0.25)), url("../img/section_one_1.jpg");
-    background-color: $main-bv-gray;
+    background: linear-gradient(rgba(169, 169, 169, 0.6),
+        rgba(169, 169, 169, 1)), url("../img/bg.jpg");
+    // background-color: $main-bv-gray;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    // background-attachment: fixed;
     width: 100%;
     padding: 2rem;
 
@@ -142,9 +142,7 @@ a.apply-btn:hover {
     }
 }
 
-.first__subheadings {
-    
-}
+.first__subheadings {}
 
 .first__subheadings .row {
     margin-left: 0;
@@ -538,7 +536,7 @@ label.agree-checkbox__text {
     .footer__nav-email {
         color: #212529;
     }
-    
+
     #cookies-policy {
         font-size: 0.75rem;
     }

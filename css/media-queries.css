@@ -93,10 +93,6 @@
 }
 
 @media (max-width: 440px) {
-    #first {
-        /* height: 700px; */
-    }
-
     .first__heading {
         font-size: 1.25rem
     }
@@ -142,9 +138,6 @@
 
 
 @media (max-width: 375px) {
-    #first {
-        /* height: 600px; */
-    }
 
     #first,
     #second,

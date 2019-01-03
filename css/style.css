@@ -104,7 +104,7 @@ a.apply-btn:hover {
   content: "";
   width: 150px;
   height: 150px;
-  background-size: 150px 150px;
+  /* background-size: 150px 150px; */
   text-indent: -9999px;
   margin-bottom: 0;
 }

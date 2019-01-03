@@ -374,6 +374,11 @@ section#second h3 span {
   font-weight: 700;
 }
 
+.modal-footer > a:hover,
+.modal-footer > a:active,
+.modal-footer > a:focus {
+  color: #fff;
+}
 .readmore-btn:hover,
 .readmore-btn:active,
 .readmore-btn:focus {
@@ -382,6 +387,8 @@ section#second h3 span {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
+
 
 .service__info-diagram {
   width: 100%;

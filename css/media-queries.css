@@ -86,10 +86,10 @@
         font-size: 1.25rem;
     }
 
-    .modal-body p,
+    /* .modal-body p,
     #fourth p {
         font-size: 0.75rem;
-    }
+    } */
 }
 
 @media (max-width: 440px) {
@@ -113,11 +113,11 @@
         padding: 1rem;
     }
 
-    .info-box__info li,
+    /* .info-box__info li,
     .list .container li,
     #third_plus .container li {
         font-size: 0.75rem;
-    }
+    } */
 
     .popup-btn,
     .apply-btn,

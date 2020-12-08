@@ -7,7 +7,7 @@
 > Using HTML5, CSS3 (Bootstrap 4) and Vanilla JS.<br />
 > Little PHP used for contact form.
 
-### 🏠 [Homepage](https://bureauveritaslatvia.lv/)
+### 🏠 [Homepage](https://bureauveritaslatvia.lv/piegades-uzraudziba/)
 
 ## Author
 
